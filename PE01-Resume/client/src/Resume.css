@@ -1,0 +1,136 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #bdfb04;
+  color: black;
+}
+
+/* Resume Container Styles */
+.resume {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  margin-top: 30px;
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.3rem;
+  margin-top: 23px;
+}
+
+/* Section Styles */
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Education Styles */
+.education {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.education h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.education p {
+  font-size: 0.8em;
+  margin: 5px 0;
+  margin-left: 60px;
+}
+
+.education p2 {
+  font-size: 0.8em;
+  margin-left: 100px;
+}
+
+/* Skills Styles */
+.skills h2 {
+  font-size: 2rem;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin-left: 60px;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+/* Work Experience Styles */
+.work {
+  margin: 0;
+}
+
+.work h3 {
+  font-size: 1.5em;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.work p {
+  font-size: 1.0em;
+  margin-left: 130px;
+  margin-bottom: 10px;
+}
+
+/* Projects Styles */
+.projects {
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+.project {
+  margin: 5px 0;
+  font-size: 1.4em;
+}
+
+.project h3 {
+  font-size: 0.7em;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 0.5em;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+/* Link Styles */
+.blue-link {
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* Layering */
+.resume .header,
+.resume .section,
+.resume .skills,
+.resume .work,
+.resume .projects {
+  z-index: 1;
+}
