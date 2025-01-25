@@ -1,0 +1,27 @@
+.movie-list-container { /* Movie list container styling and margins */
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+  }
+  
+  select { /* margin and padding for toggle */
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  /* movie container styling */
+  .movies-container {
+    margin-top: 1rem;
+  }
+  
+  .movie-card {
+    background-color: #fffffffd;   
+    border: 2px solid #dbd6d6d9;      
+    border-radius: 4px;          
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .movie-card:hover {
+    background-color: #e6e6e6;   
+  }
