@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Main container for the ToDo app */
+.app-container {
+  width: 500px; /* Increased width for better readability */
+  margin: 50px auto; /* Center the app */
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header styling */
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Container for input field and button */
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; 
+  gap: 10px; 
+}
+
+/* Input field styling */
+.input-container input {
+  padding: 10px;
+  width: 100%; 
+  max-width: 500px; 
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Styling for Add Task button */
+.input-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; 
+}
+
+/* Button hover effect */
+.input-container button:hover {
+  background-color: #0056b3; 
+}
+
+/* List styling */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual ToDo item */
+.todo-item {
+  background: rgba(245, 245, 245, 0.836);
+  border: 1.2px solid #c4c4c4; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Space out text and delete button */
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 40px;
+}
+
+/* Delete button styling */
+.delete-button {
+  background: #dc3545; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Hover effect for delete button */
+.delete-button:hover {
+  background: #c82333; 
 }
